@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body,
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body {
+    background-color: #ffd6ba;
+}
+
+/* Header */
+header {
+    margin: 5px;
+    border-radius: 5px;
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 0, 0.475); */
+}
+
+header .devise {
+    flex-direction: column;
+}
+
+header .devise span {
+    color: orange;
+}
+
+header div img {
+    width: 50px;
+    margin: 5px;
+}
+
+header div h1 {
+    color: rgb(217, 217, 217);
+    font-size: 65px;
+    margin: 0;
+    text-shadow: black 2px 2px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+}
+
+header span {
+    font-size: 16px;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    background: orange;
+}
+
+header nav ul li {
+    display: flex;
+    margin-right: 15px;
+    background-color: rgba(255, 255, 255, 0.699);
+    border: solid 1px white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    font-size: 12px;
+    /* margin: auto; */
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+header nav ul .actif {
+    background-color: orange
+}
+
+header nav ul li:hover {
+    background-color: rgba(255, 255, 255);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    transform: translateY(-5px);
+}
+
+header nav ul .actif:hover {
+    background-color: orange;
+    transform: translateY(0);
+}
+
+/* Main */
+main article {
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px white solid;
+    background-color: #ffffffa1;
+    padding: 5px;
+}
+
+main article h2 {
+    color: #555b6e;
+}
+
+main article h3 {
+    color: #555b6e;
+}
+
+
+
+main article ul {
+    margin-top: 15px;
+}
+
+main article ul li::before {
+    content: '⦿';
+    padding-right: 8px;
+    color: green;
+}
+
+main article ul li {
+    text-decoration: none;
+}
+
+.logo-in {
+    width: 10px;
+}
+
+
+#cinema1 img {
+    height: 500px; 
+    width: 700px;
+    border-radius:15px;
+    margin: 15px; /* Ajoute un espace de 10px autour de chaque image */
+   }
+
+
+.contenu-liste-cinema{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #f0f0f0; /* Change le fond au survol */
+  color: #007bff; /* Change la couleur du texte */
+
+}
+
+
+
+
+
+/* Modifie la 3ème partie de ma page " top 3 des cinéma " */
+
+#cinema3 {
+    
+   background-color:rgb(233, 227, 216);
+   border-radius: 25px ;
+
+   height: 100%;
+   width: 50%;   
+   justify-content: center; /* Centre horizontalement */
+   align-items: center; /* Centre verticalement */
+   display: flex;
+   flex-direction: column;
+   margin-left: auto;   /* Marge automatique à gauche */
+   margin-right: auto;  /* Marge automatique à droite */        
+   padding: 20px 40px; /* Espacement autour de la liste */
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre discrète autour de la bulle */
+   list-style-type: none; /* Supprime les puces */
+   width: 600px; /* Largeur de la bulle */
+  text-align: center; /* Centre le texte dans la bulle */
+}
+
+
+/* modifie la première partie de ma pageclcl */
+#cinema-haut {
+
+    
+    background-color:rgb(233, 227, 216);
+   border-radius: 25px ;
+
+   height: 100%;
+   width: 50%;   
+   justify-content: center; /* Centre horizontalement */
+   align-items: center; /* Centre verticalement */
+   display: flex;
+   flex-direction: column;
+   margin-left: auto;   /* Marge automatique à gauche */
+   margin-right: auto;  /* Marge automatique à droite */        
+   padding: 20px 40px; /* Espacement autour de la liste */
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre discrète autour de la bulle */
+   list-style-type: none; /* Supprime les puces */
+   width: 600px; /* Largeur de la bulle */
+  text-align: center; /* Centre le texte dans la bulle */
+  
+}
+
+/* Ceci est un commentaire simple */
+#cinema-haut img {
+
+    height: 300px;
+ 
+    width: 100%; /* Ajuste la largeur de l'image à la largeur du conteneur */
+    max-width: 500px; /* Optionnel, fixe une largeur maximale pour l'image */
+    margin-bottom: 20px; /* Ajoute un espacement sous l'image */
+
+    
+}
